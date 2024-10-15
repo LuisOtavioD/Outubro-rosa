@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header{
+    background: #FF69B4;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Logo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+     img{
+        height: 15vh;
+     }
+     h1{
+       font-size: 4vh;
+       color: white;
+     }
+}
+nav{
+  width: 50%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3vh;
+    a{
+        color: white;
+    }
+    a:hover{
+        color: #c44986;
+    }
+}
+.section-de-introdução{
+    display: flex;
+    height: 50vh;
+    background-color:#FFD9EC;
+    justify-content: space-around;
+    align-items: center;
+    p{
+        width: 80vh;
+        font-size: 4vh;
+        font-family: sans;
+    }
+ 
+    img{
+        width: 45vh;
+    }
+}
+.section-de-explicação{
+   background-color: #FF69B4;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 40vh;
+   p{
+    color: white;
+    height: 20vh;
+    width: 50%;
+    font-size: 155%;
+   }
+   img{
+    height: 35vh;
+   }
+}
+.section-de-indicações{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD9EC;
+    height: 50vh;
+    img{
+       height: 35vh;
+    }
+}
+footer{
+background-color: #FF69B4;
+height: 20vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+ul{
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-size: 110%;
+}
+img{
+    height: 15vh;
+}
+
+}
+.LogosDeRedesSociais{
+ 
+    display: flex;
+    width: 30vh;
+    justify-content: space-between;
+   img{
+    height: 8vh;
+   }
+}
